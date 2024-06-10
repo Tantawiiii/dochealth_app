@@ -1,18 +1,7 @@
+import 'package:dochealth_app/core/routing/app_router.dart';
+import 'package:dochealth_app/doc_app.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(DocAppClient(appRouter: AppRouter()));
 }
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: 'Doc Health app',
-    //  home: const MyHomePage(title: 'Flutter Demo Home Page'),
-    );
-  }
-}
-
