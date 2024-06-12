@@ -20,7 +20,7 @@ class DocAppClient extends StatelessWidget {
           primaryColor: ColorsCode.mainBlue,
           scaffoldBackgroundColor: ColorsCode.white
         ),
-        initialRoute: Routes.splashScreen,
+        initialRoute: Routes.onBoardingScreen,
         onGenerateRoute: appRouter.generateRoute,
       ),
     );

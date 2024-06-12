@@ -41,7 +41,7 @@ dependencies:
   intl: ^0.18.1
   easy_localization: ^3.0.3
   # Splash screen
-  #flutter_native_splash: ^2.3.5
+  flutter_native_splash: ^2.3.5
 
   #For Ui widgets
   flutter_svg: ^2.0.10+1
