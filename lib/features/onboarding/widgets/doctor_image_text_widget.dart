@@ -1,5 +1,5 @@
 import 'package:dochealth_app/core/theming/text_style.dart';
-import 'package:dochealth_app/core/utils/colorsCode.dart';
+import 'package:dochealth_app/core/utils/colors_code.dart';
 import 'package:dochealth_app/core/utils/images_path.dart';
 import 'package:dochealth_app/core/utils/strings.dart';
 import 'package:flutter/material.dart';
@@ -11,13 +11,13 @@ class DoctorImageTextWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Stack(children: [
-      SvgPicture.asset(ImagesPath.LogoIconBack),
+      SvgPicture.asset(ImagesPath.logoIconBack),
       Container(
         foregroundDecoration: BoxDecoration(
             gradient: LinearGradient(
                 colors: [
-                  ColorsCode.WHITE,
-                  ColorsCode.WHITE.withOpacity(0.0),
+                  ColorsCode.white,
+                  ColorsCode.white.withOpacity(0.0),
                 ],
                 begin: Alignment.bottomCenter,
                 end: Alignment.topCenter,

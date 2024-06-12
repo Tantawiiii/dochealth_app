@@ -3,5 +3,9 @@ import 'package:dochealth_app/doc_app.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(DocAppClient(appRouter: AppRouter()));
+  runApp(
+    DocAppClient(
+      appRouter: AppRouter(),
+    ),
+  );
 }
