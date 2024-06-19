@@ -29,7 +29,7 @@ class DoctorImageTextWidget extends StatelessWidget {
         left: 0,
         right: 0,
         child: Text(
-          StringsText.onBoardingHeadLine,
+          StringsText.txtOnBoardingHeadLine,
           textAlign: TextAlign.center,
           style: TextStyles.font32BlueBold.copyWith(
             height: 1.4,
