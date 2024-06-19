@@ -29,7 +29,7 @@ class OnBoardingScreen extends StatelessWidget {
                   child: Column(
                     children: [
                       Text(
-                        StringsText.onBoardingDescription,
+                        StringsText.txtOnBoardingDescription,
                         style: TextStyles.font13GrayNormal,
                         textAlign: TextAlign.center,
                       ),
