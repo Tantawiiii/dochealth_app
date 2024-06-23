@@ -1,19 +1,26 @@
+import 'package:dochealth_app/core/di/dependency_injection.dart';
 import 'package:dochealth_app/core/routing/routers.dart';
+import 'package:dochealth_app/features/login/logic/cubit/login_cubit.dart';
 import 'package:dochealth_app/features/login/ui/screens/login_screen.dart';
 import 'package:dochealth_app/features/onboarding/onboarding_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class AppRouter {
   Route generateRoute(RouteSettings settings) {
-
     // This argument is used to pass in any Screen
-    //final arguments = settings.arguments;
+    final arguments = settings.arguments;
 
     switch (settings.name) {
       case Routes.onBoardingScreen:
         return MaterialPageRoute(builder: (_) => const OnBoardingScreen());
       case Routes.loginScreen:
-        return MaterialPageRoute(builder: (_) => const LoginScreen());
+        return MaterialPageRoute(
+          builder: (_) => BlocProvider(
+            create: (context) => getIt<LoginCubit>(),
+            child: const LoginScreen(),
+          ),
+        );
 
       default:
         return MaterialPageRoute(
