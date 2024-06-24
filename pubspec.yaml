@@ -18,7 +18,8 @@ dependencies:
 
 
   cupertino_icons: ^1.0.6
-
+  #A build system for Dart code generation and modular compilation.
+  build_runner: ^2.4.9
   # State Management
   flutter_bloc: ^8.1.5
   # Code generator (used with cubit and retrofit)
@@ -47,6 +48,7 @@ dependencies:
   flutter_svg: ^2.0.10+1
   flutter_screenutil: ^5.9.3
   shared_preferences_android: ^2.2.2
+  built_value_generator: ^8.9.2
 
 
 dev_dependencies:
@@ -55,6 +57,7 @@ dev_dependencies:
 
 
   flutter_lints: ^3.0.0
+
 
 
 flutter:
