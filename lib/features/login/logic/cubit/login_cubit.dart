@@ -9,10 +9,11 @@ import 'login_state.dart';
 class LoginCubit extends Cubit<LoginState> {
   final LoginRepo _loginRepo;
   LoginCubit(this._loginRepo) : super(const LoginState.initial());
-
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
   final formKey = GlobalKey<FormState>();
+
+
 
   void emitLoginStates(LoginRequestBody loginRequestBody) async {
     emit(const LoginState.loading());
