@@ -1,5 +1,6 @@
 import 'package:dochealth_app/core/di/dependency_injection.dart';
 import 'package:dochealth_app/core/routing/routers.dart';
+import 'package:dochealth_app/features/home/home_screen.dart';
 import 'package:dochealth_app/features/login/logic/cubit/login_cubit.dart';
 import 'package:dochealth_app/features/login/ui/screens/login_screen.dart';
 import 'package:dochealth_app/features/onboarding/onboarding_screen.dart';
@@ -21,7 +22,8 @@ class AppRouter {
             child: const LoginScreen(),
           ),
         );
-
+      case Routes.homeScreen:
+        return MaterialPageRoute(builder: (_) => const HomeScreen());
       default:
         return MaterialPageRoute(
           builder: (_) => Scaffold(
