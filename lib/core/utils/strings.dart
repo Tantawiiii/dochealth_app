@@ -16,7 +16,8 @@ class StringsText {
   static const String txtOrSignMedia = "Or sign in with";
   static const String txtEmailIsValid = "please enter a valid email.";
   static const String txtPasswordIsValid = "please enter a valid password.";
-
+  static const String txtDontHaveAcc = 'Don\'t have an account? ';
+  static const String txtSignUp = 'Sign Up';
 
 
 
