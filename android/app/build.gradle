@@ -51,6 +51,21 @@ android {
         versionName flutterVersionName
     }
 
+    //  Flavors allow you (the developer) to create separate environments for your app using the same code base
+    flavorDimensions "default"
+    productFlavors {
+        production {
+            dimension "default"
+            resValue "string", "app_name", "DocHealth Production"
+        }
+
+        development {
+            dimension "default"
+            resValue "string", "app_name", "DocHealth Development"
+            applicationIdSuffix ".dev"
+        }
+    }
+
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
