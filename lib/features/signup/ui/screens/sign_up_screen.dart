@@ -10,7 +10,7 @@ import '../../../login/ui/widgets/build_terms_and_conditions_text.dart';
 import '../../logic/cubit/sign_up_cubit.dart';
 import '../widgets/already_have_account_text.dart';
 import '../widgets/build_sign_up_form.dart';
-import '../widgets/sign_up_bloc_listener.dart';
+import '../widgets/sign_up_bloc_listener.dart'; 
 
 
 class SignupScreen extends StatelessWidget {

@@ -2,7 +2,6 @@ import 'package:dochealth_app/core/helpers/spacing.dart';
 import 'package:dochealth_app/core/theming/text_style.dart';
 import 'package:dochealth_app/core/utils/strings.dart';
 import 'package:dochealth_app/core/widgets/build_button.dart';
-import 'package:dochealth_app/features/login/data/models/login_request_body.dart';
 import 'package:dochealth_app/features/login/logic/cubit/login_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
