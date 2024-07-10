@@ -49,6 +49,7 @@ dependencies:
   flutter_screenutil: ^5.9.3
   shared_preferences_android: ^2.2.2
   built_value_generator: ^8.9.2
+  firebase_core: ^3.1.1
 
 
 dev_dependencies:

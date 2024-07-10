@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "575687439560",
+    "project_id": "doc-health-distribution",
+    "storage_bucket": "doc-health-distribution.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575687439560:android:1e710834e8f31a6ade61fd",
+        "android_client_info": {
+          "package_name": "com.tantawii.dochealth_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZynNj90hZ-ebvpba3gLjhsr1tcDL937Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

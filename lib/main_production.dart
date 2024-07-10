@@ -6,7 +6,6 @@ import 'core/di/dependency_injection.dart';
 
 void main() async {
   setupGetIt();
-
   // this to fix Strings being hidden bugs in the flutter_screenUtil in release apps
   await ScreenUtil.ensureScreenSize();
   runApp(
