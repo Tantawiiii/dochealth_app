@@ -10,9 +10,4 @@ class ImagesPath{
   static const String appleIcon = "assets/svg_icon/apple_icon.svg";
 
 
-
-
-
-
-
 }
