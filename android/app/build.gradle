@@ -41,14 +41,32 @@ android {
     }
 
     defaultConfig {
+
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "com.tantawii.dochealth_app"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
-        minSdkVersion flutter.minSdkVersion
+        minSdkVersion 21
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+
+
+    }
+
+    //  Flavors allow you (the developer) to create separate environments for your app using the same code base
+    flavorDimensions "default"
+    productFlavors {
+        production {
+            dimension "default"
+            resValue "string", "app_name", "DocHealth Production"
+        }
+
+        development {
+            dimension "default"
+            resValue "string", "app_name", "DocHealth Development"
+            applicationIdSuffix ".dev"
+        }
     }
 
     buildTypes {
@@ -62,6 +80,7 @@ android {
 
 flutter {
     source '../..'
+
 }
 
 dependencies {}
